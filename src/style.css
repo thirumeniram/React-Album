@@ -1,0 +1,300 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  word-spacing: 1px;
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+input {
+  outline: none;
+  font-size: 18px;
+  width: 100%;
+}
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar1 {
+  width: 100%;
+  padding: 20px 10px;
+  background-color: #072b4d;
+  display: flex;
+  justify-content: Center;
+}
+.navbar1 h2 {
+  background-color: #072b4d;
+
+  padding: 2px;
+}
+
+.navbar1 button {
+  background-color: transparent;
+  color: white;
+
+  padding: 5px 10px;
+  cursor: pointer;
+  position: fixed;
+}
+.navbar1 button:hover {
+  background-color: white;
+  color: white;
+}
+.navbar {
+  width: 100%;
+  padding: 20px 10px;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+.navbar h2 {
+  background-color: #fd0102;
+  width: fit-content;
+  padding: 2px;
+}
+.Nav-title {
+  color: white;
+  margin-right: 2px;
+  border: none;
+}
+
+.navbar button {
+  background-color: transparent;
+  color: #fd0102;
+  border: 2px solid #fd0102;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.navbar button:hover {
+  background-color: #fd0102;
+  color: white;
+}
+
+.albums-list {
+  width: 70%;
+  margin: auto;
+  padding-top: 73px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 365px;
+}
+
+.list {
+  width: 80%;
+  height: 200px;
+  background-color: #072b4d;
+  margin-bottom: 5px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.list h3 {
+  text-align: start;
+  text-transform: capitalize;
+}
+
+.left-section {
+  width: 20%;
+  height: 100%;
+  background-color: whitesmoke;
+  margin-right: 5px;
+}
+
+.left-section img {
+  height: 100%;
+  padding: 5px;
+}
+.right-section {
+  width: 75%;
+  height: 180px;
+  background-color: #072b4d;
+  margin-bottom: 5px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.button-group {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  right: 220px;
+}
+.update-btn {
+  background-color: black;
+  color: whitesmoke;
+  border: 0px;
+  padding: 10px 20px;
+  cursor: pointer;
+  /* margin-left: 720px;
+    margin-right: 25px; */
+  position: absolute;
+  left: 700px;
+  bottom: -10px;
+  height: 41px;
+}
+.update-btn:hover {
+  background-color: white;
+  color: black;
+}
+.delete-btn {
+  cursor: pointer;
+  border: 0px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+
+  position: absolute;
+  height: 45px;
+  left: 800px;
+  bottom: -10px;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+.update-album {
+  width: 350px;
+  margin: auto;
+  padding-top: 73px;
+  color: white;
+}
+.form-container {
+  background-color: #072b4d;
+  padding: 10px;
+  margin-top: 50px;
+}
+.inp-container {
+  margin: 10px;
+  margin-bottom: 40px;
+}
+#title-inp {
+  margin-top: 15px;
+  height: 35px;
+}
+#Artistid-inp {
+  margin-top: 15px;
+  height: 35px;
+}
+#form-Artistid-inp {
+  margin-top: 15px;
+  height: 35px;
+}
+#form-title-inp {
+  margin-top: 15px;
+  height: 35px;
+}
+.addalbum-form h2 {
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+.save {
+  margin-left: 10px;
+}
+.cancel {
+  margin-left: 160px;
+}
+.saveandcancel {
+  margin-bottom: 15px;
+  font-size: 10px;
+  font-weight: bolder;
+}
+.addtolAlbums {
+  margin-left: 10px;
+}
+.cancel1 {
+  margin-left: 100px;
+}
+.form-container button {
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+}
+
+.addalbum-container {
+  height: 300px;
+  color: white;
+  padding-top: 73px;
+  width: 350px;
+  margin: auto;
+}
+.addalbum-form {
+  padding: 10px;
+  background-color: #072b4d;
+  margin-top: 50px;
+}
+.addalbum-form button {
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+}
+
+.addalbum {
+  width: 4.5%;
+  height: 6%;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 10px 0px;
+  position: fixed;
+  top: 155px;
+  right: 150px;
+
+  color: white;
+  border-radius: 50%;
+}
+
+.addalbum-button {
+  background-color: #072b4d;
+  color: white;
+
+  height: 40px;
+  font-size: large;
+  font-weight: bold;
+  padding: 2px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 9rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 35px;
+}
+
+#removeicon {
+  position: relative;
+  bottom: 10px;
+  height: 10px;
+  font-size: 1.6rem;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 100%;
+  padding: 15px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#removeicon::before {
+  position: relative;
+  bottom: 10px;
+  right: 27px;
+}
