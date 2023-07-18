@@ -103,6 +103,7 @@ button {
   padding: 10px;
   display: flex;
   flex-direction: row;
+  border-radius: 15px;
 }
 .list h3 {
   text-align: start;
@@ -114,6 +115,7 @@ button {
   height: 100%;
   background-color: whitesmoke;
   margin-right: 5px;
+  border-radius: 8px;
 }
 
 .left-section img {

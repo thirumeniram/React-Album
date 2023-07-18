@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import image from "../../Assets/music.png";
+import image from "../../Assets/vintage-radio.png";
 
 const Album = (props) => {
   // Function to generate a random year based on album ID
