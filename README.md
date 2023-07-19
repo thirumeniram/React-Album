@@ -12,10 +12,27 @@ This React application allows you to fetch and display albums from a provided AP
 
 - **Fetching and displaying albums from the API: The app retrieves album data from the JSONPlaceholder API and displays them in a user-friendly interface.**
 - **Adding an album: You can add a new album by making a POST call to the API.**
-- **Updatimg an album: The app allows you to update an existing album by making a PUT call to the API.**
+- **Updating an album: The app allows you to update an existing album by making a PUT call to the API.**
 - **Deleting an album: You can delete an album from the app by making a DELETE call to the API.**
 
-  
+<div align="center">
+  <h1>Home-Page</h1>
+</div>
+
+![React-album-Homapage](https://github.com/thirumeniram/React-Album/assets/66516937/89553053-b8fa-4ce8-a0ce-326ff33d3db6)
+
+<div align="center">
+  <h1>Addition-Page</h1>
+</div>
+
+![React-albumaddiotion-apge](https://github.com/thirumeniram/React-Album/assets/66516937/2bdb8cd4-890c-49d2-adec-8a682811f5ab)
+
+<div align="center">
+  <h1>Updation-Page</h1>
+</div>
+
+![React-albumUpdation-page](https://github.com/thirumeniram/React-Album/assets/66516937/2f95538d-327c-4a86-bdbf-8055999bedab)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
