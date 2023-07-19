@@ -1,6 +1,15 @@
+# Tech Stack:
+  - **HTML**
+  - **CSS**
+  - **React Js**
 
-# React-Album
-=======
+# Features
+
+- **Hovering the select button, shows the drop-down items.**
+- **On click of an option in the dropdown list, the Status gets updated.**
+- **If the cursor moves out of the root element, the dropdown list closes**
+
+  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
