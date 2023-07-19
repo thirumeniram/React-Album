@@ -19,19 +19,19 @@ This React application allows you to fetch and display albums from a provided AP
   <h1>Home-Page</h1>
 </div>
 
-![React-album-Homapage](https://github.com/thirumeniram/React-Album/assets/66516937/89553053-b8fa-4ce8-a0ce-326ff33d3db6)
+![React-album Homapage](https://github.com/thirumeniram/React-Album/assets/66516937/eeb3d863-c298-4db6-85d2-52272596f934)
 
 <div align="center">
   <h1>Addition-Page</h1>
 </div>
 
-![React-albumaddiotion-apge](https://github.com/thirumeniram/React-Album/assets/66516937/2bdb8cd4-890c-49d2-adec-8a682811f5ab)
+![React-albumaddiotion-page](https://github.com/thirumeniram/React-Album/assets/66516937/0c21dfb1-5915-4391-9a97-9263d9948227)
 
 <div align="center">
   <h1>Updation-Page</h1>
 </div>
 
-![React-albumUpdation-page](https://github.com/thirumeniram/React-Album/assets/66516937/2f95538d-327c-4a86-bdbf-8055999bedab)
+![React-albumUpdation-page](https://github.com/thirumeniram/React-Album/assets/66516937/9302c816-7559-4346-993f-028239edcff1)
 
 # Getting Started with Create React App
 
