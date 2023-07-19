@@ -1,3 +1,6 @@
+This React application allows you to fetch and display albums from a provided API. You can also add, update, and delete albums within the app.
+
+
 # Tech Stack:
   - **HTML**
   - **CSS**
@@ -5,9 +8,10 @@
 
 # Features
 
-- **Hovering the select button, shows the drop-down items.**
-- **On click of an option in the dropdown list, the Status gets updated.**
-- **If the cursor moves out of the root element, the dropdown list closes**
+- **Fetching and displaying albums from the API: The app retrieves album data from the JSONPlaceholder API and displays them in a user-friendly interface.**
+- **Adding an album: You can add a new album by making a POST call to the API.**
+- **Updatimg an album: The app allows you to update an existing album by making a PUT call to the API.**
+- **Deleting an album: You can delete an album from the app by making a DELETE call to the API.**
 
   
 # Getting Started with Create React App
