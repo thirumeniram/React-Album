@@ -1,3 +1,5 @@
+# ALBUM
+
 This React application allows you to fetch and display albums from a provided API. You can also add, update, and delete albums within the app.
 
 
